@@ -1,0 +1,120 @@
+.info {
+  display: flex;
+  position: relative;
+}
+.time {
+  color: black;
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 25px;
+}
+.city {
+  font-family: 'Roboto';
+}
+.date {
+  font-family: 'Roboto';
+}
+.way {
+  width: 260px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: #b7bac1;
+}
+
+.airports {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: 1px solid #b7bac1;
+  height: 0;
+  position: relative;
+}
+
+.line::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 8px;
+  height: 8px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+
+.line::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -4px;
+  width: 8px;
+  height: 8px;
+  background: #c4c4c4;
+  border-radius: 50%;
+}
+.active {
+  background: #dde3ee;
+  border-radius: 15px;
+  font-size: 15px;
+  width: 120px;
+  height: 40px;
+  margin-right: 10px;
+}
+.defaultButton {
+  border-radius: 15px;
+  width: 110px;
+  height: 35px;
+  background: #ffffff;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-top: 20px;
+  padding: 23px;
+}
+.logoTextStyle {
+  margin-top: 0px;
+}
+
+.stickerOne {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 15px 0px;
+  background-color: #8ba5d8;
+  font-size: 12px;
+  color: #ffffff;
+}
+.secondTimeWrapper {
+  display: flex;
+  margin-top: 32px;
+}
+.infoWrapper {
+  display: flex;
+  margin-right: 40px;
+  width: 560px;
+  height: 200px;
+}
+
+.buttons {
+  margin: 10px;
+  display: flex;
+}
+.icons {
+  width: 50px;
+  margin-top: 7px;
+  margin-left: 12px;
+}
+
+.timeStyle {
+  margin-top: 10px;
+}
+.timeWrapper {
+  width: fit-content;
+  height: fit-content;
+}
+.firstIcon {
+  margin-right: 6px;
+}

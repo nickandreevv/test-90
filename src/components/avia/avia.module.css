@@ -1,0 +1,93 @@
+.main {
+  position: relative;
+  margin-left: 350px;
+  padding: 50px;
+}
+.firstBox {
+  background: #5c87db;
+  border-radius: 15px 15px 0px 0px;
+  width: 800px;
+  height: 100px;
+}
+.secondBox {
+  background: #ffffff;
+
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  border-radius: 0px 0px 15px 15px;
+  width: 800px;
+  height: 100px;
+}
+.firstBoxStyle {
+  position: relative;
+  padding: 5px;
+}
+.inputStyle {
+  position: relative;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 5px;
+
+  padding-bottom: 10px;
+  top: 20px;
+  width: 150px;
+  height: 20px;
+}
+.dateInputStyle {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  top: 20px;
+  padding-bottom: 10px;
+  width: 150px;
+  height: 20px;
+  text-align: right;
+  background-image: url('../../../public/icons/calendar.svg');
+  background-repeat: no-repeat;
+  background-position: 4px;
+}
+.dateInputStyle::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.secondDateInputStyle {
+  position: relative;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 5px;
+  top: 20px;
+  padding-bottom: 10px;
+  width: 150px;
+  height: 20px;
+  text-align: right;
+  background-image: url('../../../public/icons/calendar2.svg');
+  background-repeat: no-repeat;
+  background-position: 4px;
+}
+.secondDateInputStyle::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.buttonStyle {
+  position: relative;
+  border-radius: 10px;
+  width: 130px;
+  height: 40px;
+  left: 300px;
+  top: 30px;
+  background-color: #5c87db;
+  color: white;
+}
+.line {
+  border: 1px dashed #ffffff;
+  position: absolute;
+  width: 19px;
+  height: 0px;
+  left: 584px;
+  top: 54px;
+}
+.textStyle {
+  position: fixed;
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 13px;
+  margin-left: 15px;
+}

@@ -1,0 +1,23 @@
+.card {
+  margin: 50px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 400px;
+}
+
+.price {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  width: 200px;
+}
+
+.line {
+  border: 1px solid #dde3ee;
+  transform: rotate(180deg);
+}
